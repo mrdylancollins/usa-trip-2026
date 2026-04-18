@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dylan & Lauren â May 2026 USA Road Trip</title>
+<title>Dylan & Lauren — May 2026 USA Road Trip</title>
 <style>
   :root {
     --gc-primary: #C0392B;
@@ -36,7 +36,7 @@
     line-height: 1.6;
   }
 
-  /* ââ HERO âââââââââââââââââââââââââââââââââââââââââââââââ */
+  /* ── HERO ─────────────────────────────────────────────── */
   .hero {
     background: linear-gradient(135deg, #111827 0%, #1f2937 50%, #111827 100%);
     color: white;
@@ -96,7 +96,7 @@
     color: rgba(255,255,255,0.45);
   }
 
-  /* ââ NAV âââââââââââââââââââââââââââââââââââââââââââââââââ */
+  /* ── NAV ───────────────────────────────────────────────── */
   .sticky-nav {
     position: sticky;
     top: 0;
@@ -130,7 +130,7 @@
   .nav-link.no:hover, .nav-link.no.active { color: var(--no-primary); border-color: var(--no-primary); }
   .nav-link.overview.active { color: var(--neutral-900); border-color: var(--neutral-900); }
 
-  /* ââ LAYOUT ââââââââââââââââââââââââââââââââââââââââââââââ */
+  /* ── LAYOUT ────────────────────────────────────────────── */
   .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -166,7 +166,7 @@
   .section-label.lv { color: var(--lv-primary); }
   .section-label.no { color: var(--no-primary); }
 
-  /* ââ TIMELINE ââââââââââââââââââââââââââââââââââââââââââââ */
+  /* ── TIMELINE ──────────────────────────────────────────── */
   .timeline {
     position: relative;
     padding-left: 28px;
@@ -218,7 +218,7 @@
     margin-top: 2px;
   }
 
-  /* ââ TABS ââââââââââââââââââââââââââââââââââââââââââââââââ */
+  /* ── TABS ──────────────────────────────────────────────── */
   .tabs {
     display: flex;
     gap: 4px;
@@ -245,7 +245,7 @@
   .tab-btn.active.lv { color: var(--lv-primary); border-color: var(--lv-primary); }
   .tab-btn.active.no { color: var(--no-primary); border-color: var(--no-primary); }
 
-  /* ââ BOOKING CARDS âââââââââââââââââââââââââââââââââââââââ */
+  /* ── BOOKING CARDS ─────────────────────────────────────── */
   .booking-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -326,7 +326,7 @@
     font-size: 13px;
   }
 
-  /* ââ EVENT CARDS âââââââââââââââââââââââââââââââââââââââââ */
+  /* ── EVENT CARDS ───────────────────────────────────────── */
   .events-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -364,7 +364,7 @@
     color: var(--neutral-500);
     font-weight: 500;
   }
-  .event-venue::before { content: 'ð '; }
+  .event-venue::before { content: '📍 '; }
   .event-highlight {
     margin-top: 8px;
     display: inline-block;
@@ -378,7 +378,7 @@
   .event-highlight.gc { background: var(--gc-light); color: var(--gc-primary); }
   .event-highlight.no { background: var(--no-light); color: var(--no-primary); }
 
-  /* ââ RECOMMENDATION CARDS ââââââââââââââââââââââââââââââââ */
+  /* ── RECOMMENDATION CARDS ──────────────────────────────── */
   .rec-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -439,9 +439,9 @@
     border-radius: 6px;
     border-left: 3px solid #FF4500;
   }
-  .rec-why::before { content: 'â '; }
+  .rec-why::before { content: '↑ '; }
 
-  /* ââ FLIGHT ROW ââââââââââââââââââââââââââââââââââââââââââ */
+  /* ── FLIGHT ROW ────────────────────────────────────────── */
   .flight-row {
     background: #F8FAFC;
     border: 1px solid var(--neutral-200);
@@ -522,7 +522,7 @@
     color: var(--neutral-900);
   }
 
-  /* ââ HOTEL CARD ââââââââââââââââââââââââââââââââââââââââââ */
+  /* ── HOTEL CARD ────────────────────────────────────────── */
   .hotel-spotlight {
     border-radius: 16px;
     overflow: hidden;
@@ -576,7 +576,7 @@
     color: var(--neutral-900);
   }
 
-  /* ââ DIVIDER âââââââââââââââââââââââââââââââââââââââââââââ */
+  /* ── DIVIDER ───────────────────────────────────────────── */
   .subsection-title {
     font-size: 13px;
     font-weight: 700;
@@ -588,7 +588,7 @@
     border-bottom: 1px solid var(--neutral-200);
   }
 
-  /* ââ DESTINATION BANNER ââââââââââââââââââââââââââââââââââ */
+  /* ── DESTINATION BANNER ────────────────────────────────── */
   .dest-banner {
     height: 6px;
     border-radius: 0;
@@ -597,7 +597,7 @@
   .dest-banner.lv { background: linear-gradient(90deg, var(--lv-primary), var(--lv-accent)); }
   .dest-banner.no { background: linear-gradient(90deg, var(--no-primary), var(--no-accent)); }
 
-  /* ââ ALERT BOX âââââââââââââââââââââââââââââââââââââââââââ */
+  /* ── ALERT BOX ─────────────────────────────────────────── */
   .alert {
     border-radius: 10px;
     padding: 14px 18px;
@@ -612,7 +612,7 @@
   .alert.success { background: #F0FDF4; border: 1px solid #BBF7D0; color: #166534; }
   .alert-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
 
-  /* ââ PRACTICAL âââââââââââââââââââââââââââââââââââââââââââ */
+  /* ── PRACTICAL ─────────────────────────────────────────── */
   .practical-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -633,7 +633,7 @@
     margin-bottom: 4px;
   }
 
-  /* ââ FOOTER ââââââââââââââââââââââââââââââââââââââââââââââ */
+  /* ── FOOTER ────────────────────────────────────────────── */
   footer {
     background: var(--neutral-900);
     color: rgba(255,255,255,0.4);
@@ -643,14 +643,14 @@
   }
   footer strong { color: rgba(255,255,255,0.7); }
 
-  /* ââ RESPONSIVE ââââââââââââââââââââââââââââââââââââââââââ */
+  /* ── RESPONSIVE ────────────────────────────────────────── */
   @media (max-width: 640px) {
     .booking-grid, .events-grid, .rec-grid { grid-template-columns: 1fr; }
     .flight-row { flex-direction: column; gap: 12px; }
     .hotel-details-grid { grid-template-columns: 1fr 1fr; }
   }
 
-  /* ââ NOLA TBD BANNER âââââââââââââââââââââââââââââââââââââ */
+  /* ── NOLA TBD BANNER ───────────────────────────────────── */
   .tbd-banner {
     border: 2px dashed var(--no-primary);
     border-radius: 12px;
@@ -665,36 +665,36 @@
 </head>
 <body>
 
-<!-- ââ HERO ââââââââââââââââââââââââââââââââââââââââââââââ -->
+<!-- ══ HERO ══════════════════════════════════════════════ -->
 <div class="hero">
-  <div class="hero-eyebrow">Dylan & Lauren Â· May 2026</div>
+  <div class="hero-eyebrow">Dylan & Lauren · May 2026</div>
   <h1 class="hero-title">The American <span>Southwest</span><br>& the Deep South</h1>
-  <p class="hero-sub">Grand Canyon Â· Las Vegas Â· New Orleans</p>
+  <p class="hero-sub">Grand Canyon · Las Vegas · New Orleans</p>
   <div class="hero-cities">
-    <span class="city-chip gc">ðï¸ Grand Canyon</span>
-    <span class="city-chip lv">â¨ Las Vegas</span>
-    <span class="city-chip no">ð· New Orleans</span>
+    <span class="city-chip gc">🏜️ Grand Canyon</span>
+    <span class="city-chip lv">✨ Las Vegas</span>
+    <span class="city-chip no">🎷 New Orleans</span>
   </div>
-  <div class="hero-dates">Saturday 23 May â Sunday 1 June 2026 &nbsp;Â·&nbsp; 9 nights &nbsp;Â·&nbsp; Dylan & Lauren</div>
+  <div class="hero-dates">Saturday 23 May — Sunday 1 June 2026 &nbsp;·&nbsp; 9 nights &nbsp;·&nbsp; Dylan & Lauren</div>
 </div>
 
-<!-- ââ STICKY NAV ââââââââââââââââââââââââââââââââââââââââââ -->
+<!-- ══ STICKY NAV ══════════════════════════════════════════ -->
 <nav class="sticky-nav">
   <div class="nav-inner">
     <a href="#overview" class="nav-link overview">Overview</a>
-    <a href="#grand-canyon" class="nav-link gc">ðï¸ Grand Canyon</a>
-    <a href="#las-vegas" class="nav-link lv">â¨ Las Vegas</a>
-    <a href="#new-orleans" class="nav-link no">ð· New Orleans</a>
+    <a href="#grand-canyon" class="nav-link gc">🏜️ Grand Canyon</a>
+    <a href="#las-vegas" class="nav-link lv">✨ Las Vegas</a>
+    <a href="#new-orleans" class="nav-link no">🎷 New Orleans</a>
   </div>
 </nav>
 
-<!-- ââ OVERVIEW âââââââââââââââââââââââââââââââââââââââââââ -->
+<!-- ══ OVERVIEW ═══════════════════════════════════════════ -->
 <section id="overview">
   <div class="container">
     <div class="section-header">
       <div class="section-label">The Full Picture</div>
       <h2 class="section-title">Trip at a Glance</h2>
-      <p class="section-meta">Dylan & Lauren Â· 9 nights Â· 3 destinations</p>
+      <p class="section-meta">Dylan & Lauren · 9 nights · 3 destinations</p>
     </div>
 
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start;">
@@ -705,56 +705,56 @@
           <div class="timeline-item">
             <div class="timeline-dot flight"></div>
             <div class="timeline-date">Sat 23 May</div>
-            <div class="timeline-text">âï¸ Depart London Heathrow</div>
-            <div class="timeline-detail">TravelJunction ref: 1AF21375 Â· Land Phoenix Sky Harbor</div>
+            <div class="timeline-text">✈️ Depart London Heathrow</div>
+            <div class="timeline-detail">TravelJunction ref: 1AF21375 · Land Phoenix Sky Harbor</div>
           </div>
           <div class="timeline-item">
             <div class="timeline-dot gc"></div>
             <div class="timeline-date">Sat 23 May</div>
-            <div class="timeline-text">ð Drive to Grand Canyon</div>
-            <div class="timeline-detail">National Car Rental Â· ~4 hrs from PHX Â· Arrive evening</div>
+            <div class="timeline-text">🚗 Drive to Grand Canyon</div>
+            <div class="timeline-detail">National Car Rental · ~4 hrs from PHX · Arrive evening</div>
           </div>
           <div class="timeline-item">
             <div class="timeline-dot gc"></div>
             <div class="timeline-date">Sun 24 May</div>
-            <div class="timeline-text">ðï¸ Grand Canyon â Full Day</div>
-            <div class="timeline-detail">Sunrise at Mather Point Â· Bright Angel Trail Â· Desert View</div>
+            <div class="timeline-text">🏜️ Grand Canyon — Full Day</div>
+            <div class="timeline-detail">Sunrise at Mather Point · Bright Angel Trail · Desert View</div>
           </div>
           <div class="timeline-item">
             <div class="timeline-dot gc"></div>
             <div class="timeline-date">Mon 25 May</div>
-            <div class="timeline-text">ðï¸ Grand Canyon â Morning</div>
+            <div class="timeline-text">🏜️ Grand Canyon — Morning</div>
             <div class="timeline-detail">Hermit Road & rim views before checkout</div>
           </div>
           <div class="timeline-item">
             <div class="timeline-dot lv"></div>
             <div class="timeline-date">Mon 25 May</div>
-            <div class="timeline-text">ð Drive to Las Vegas</div>
-            <div class="timeline-detail">~4.5 hrs via US-93 Â· Check in Wynn from 3PM</div>
+            <div class="timeline-text">🚗 Drive to Las Vegas</div>
+            <div class="timeline-detail">~4.5 hrs via US-93 · Check in Wynn from 3PM</div>
           </div>
           <div class="timeline-item">
             <div class="timeline-dot lv"></div>
-            <div class="timeline-date">Mon 25 â Tue 26 May</div>
-            <div class="timeline-text">â¨ Las Vegas â 2 Nights</div>
-            <div class="timeline-detail">Wynn Las Vegas Â· Encore Panoramic King Â· Strip, shows, dining</div>
+            <div class="timeline-date">Mon 25 – Tue 26 May</div>
+            <div class="timeline-text">✨ Las Vegas — 2 Nights</div>
+            <div class="timeline-detail">Wynn Las Vegas · Encore Panoramic King · Strip, shows, dining</div>
           </div>
           <div class="timeline-item">
             <div class="timeline-dot flight"></div>
             <div class="timeline-date">Wed 27 May</div>
-            <div class="timeline-text">âï¸ Fly Las Vegas â New Orleans</div>
-            <div class="timeline-detail">American Airlines Â· LAS â MSY Â· Confirmed</div>
+            <div class="timeline-text">✈️ Fly Las Vegas → New Orleans</div>
+            <div class="timeline-detail">American Airlines · LAS → MSY · Confirmed</div>
           </div>
           <div class="timeline-item">
             <div class="timeline-dot no"></div>
-            <div class="timeline-date">Wed 27 â Sat 30 May</div>
-            <div class="timeline-text">ð· New Orleans â 4 Nights</div>
-            <div class="timeline-detail">French Quarter Â· Frenchmen Street Â· WWII Museum Â· Dining</div>
+            <div class="timeline-date">Wed 27 – Sat 30 May</div>
+            <div class="timeline-text">🎷 New Orleans — 4 Nights</div>
+            <div class="timeline-detail">French Quarter · Frenchmen Street · WWII Museum · Dining</div>
           </div>
           <div class="timeline-item">
             <div class="timeline-dot flight"></div>
             <div class="timeline-date">Sun 1 Jun</div>
-            <div class="timeline-text">âï¸ Fly New Orleans â London</div>
-            <div class="timeline-detail">British Airways XX2EY8 Â· Departs 21:50 MSY Â· Arrives 12:40 LHR (+1)</div>
+            <div class="timeline-text">✈️ Fly New Orleans → London</div>
+            <div class="timeline-detail">British Airways XX2EY8 · Departs 21:50 MSY · Arrives 12:40 LHR (+1)</div>
           </div>
         </div>
       </div>
@@ -768,11 +768,11 @@
             <div class="booking-card-header">
               <div>
                 <div class="booking-type">Outbound Flight</div>
-                <div class="booking-name">London â Phoenix</div>
+                <div class="booking-name">London → Phoenix</div>
               </div>
               <span class="status-badge confirmed">Confirmed</span>
             </div>
-            <div class="booking-details">Dylan & Lauren Â· TravelJunction Â· Ref: <strong>1AF21375</strong></div>
+            <div class="booking-details">Dylan & Lauren · TravelJunction · Ref: <strong>1AF21375</strong></div>
           </div>
 
           <div class="booking-card">
@@ -783,18 +783,18 @@
               </div>
               <span class="status-badge confirmed">Confirmed</span>
             </div>
-            <div class="booking-details">Dylan & Lauren Â· 23â25 May Â· 2 nights Â· Itinerary #20508684</div>
+            <div class="booking-details">Dylan & Lauren · 23–25 May · 2 nights · Itinerary #20508684</div>
           </div>
 
           <div class="booking-card">
             <div class="booking-card-header">
               <div>
                 <div class="booking-type">Car Rental</div>
-                <div class="booking-name">National Â· Phoenix Sky Harbor</div>
+                <div class="booking-name">National · Phoenix Sky Harbor</div>
               </div>
               <span class="status-badge confirmed">Confirmed</span>
             </div>
-            <div class="booking-details">Booking.com Â· Conf: <strong>#745451363</strong></div>
+            <div class="booking-details">Booking.com · Conf: <strong>#745451363</strong></div>
           </div>
 
           <div class="booking-card">
@@ -805,40 +805,40 @@
               </div>
               <span class="status-badge confirmed">Confirmed</span>
             </div>
-            <div class="booking-details">Dylan & Lauren Â· 25â27 May Â· Encore Panoramic King Â· Conf: <strong>#2440492716</strong></div>
+            <div class="booking-details">Dylan & Lauren · 25–27 May · Encore Panoramic King · Conf: <strong>#2440492716</strong></div>
           </div>
 
           <div class="booking-card">
             <div class="booking-card-header">
               <div>
-                <div class="booking-type">LAS â MSY Flight</div>
+                <div class="booking-type">LAS → MSY Flight</div>
                 <div class="booking-name">American Airlines</div>
               </div>
               <span class="status-badge confirmed">Confirmed</span>
             </div>
-            <div class="booking-details">27 May Â· Las Vegas â New Orleans</div>
+            <div class="booking-details">27 May · Las Vegas → New Orleans</div>
           </div>
 
           <div class="booking-card">
             <div class="booking-card-header">
               <div>
                 <div class="booking-type">New Orleans Hotel</div>
-                <div class="booking-name">TBC â see recommendations</div>
+                <div class="booking-name">TBC — see recommendations</div>
               </div>
               <span class="status-badge needed">Action Needed</span>
             </div>
-            <div class="booking-details">27 May â 1 Jun Â· 5 nights Â· See NOLA section for options</div>
+            <div class="booking-details">27 May – 1 Jun · 5 nights · See NOLA section for options</div>
           </div>
 
           <div class="booking-card">
             <div class="booking-card-header">
               <div>
                 <div class="booking-type">Return Flight</div>
-                <div class="booking-name">British Airways Â· MSY â LHR</div>
+                <div class="booking-name">British Airways · MSY → LHR</div>
               </div>
               <span class="status-badge confirmed">Confirmed</span>
             </div>
-            <div class="booking-details">1 Jun Â· Dep 21:50 Â· Arr 12:40+1 Â· Ref: <strong>XX2EY8</strong></div>
+            <div class="booking-details">1 Jun · Dep 21:50 · Arr 12:40+1 · Ref: <strong>XX2EY8</strong></div>
           </div>
 
         </div>
@@ -847,20 +847,20 @@
   </div>
 </section>
 
-<!-- ââ GRAND CANYON ââââââââââââââââââââââââââââââââââââââââ -->
+<!-- ══ GRAND CANYON ════════════════════════════════════════ -->
 <section id="grand-canyon">
   <div class="dest-banner gc"></div>
   <div class="container" style="padding-top: 40px;">
     <div class="section-header">
-      <div class="section-label gc">Destination 1 of 3 Â· 23â25 May</div>
+      <div class="section-label gc">Destination 1 of 3 · 23–25 May</div>
       <h2 class="section-title">Grand Canyon</h2>
-      <p class="section-meta">South Rim, Arizona Â· 2 nights Â· Dylan & Lauren arrive evening Sat 23 May, depart Mon 25 May</p>
+      <p class="section-meta">South Rim, Arizona · 2 nights · Dylan & Lauren arrive evening Sat 23 May, depart Mon 25 May</p>
     </div>
 
     <div class="tabs" id="gc-tabs">
-      <button class="tab-btn active gc" onclick="switchTab('gc', 'logistics')">ð¨ Logistics</button>
-      <button class="tab-btn gc" onclick="switchTab('gc', 'events')">ð What's On</button>
-      <button class="tab-btn gc" onclick="switchTab('gc', 'explore')">ð­ Explore</button>
+      <button class="tab-btn active gc" onclick="switchTab('gc', 'logistics')">🏨 Logistics</button>
+      <button class="tab-btn gc" onclick="switchTab('gc', 'events')">📅 What's On</button>
+      <button class="tab-btn gc" onclick="switchTab('gc', 'explore')">🔭 Explore</button>
     </div>
 
     <!-- LOGISTICS TAB -->
@@ -869,7 +869,7 @@
         <div class="hotel-spotlight-header gc">
           <div>
             <div class="hotel-spotlight-title">Grand Canyon National Park Lodges</div>
-            <div class="hotel-spotlight-sub">Xanterra Parks & Resorts Â· South Rim, AZ 86023</div>
+            <div class="hotel-spotlight-sub">Xanterra Parks & Resorts · South Rim, AZ 86023</div>
           </div>
           <span class="status-badge confirmed">Confirmed</span>
         </div>
@@ -898,8 +898,8 @@
       </div>
 
       <div class="alert info">
-        <div class="alert-icon">â¹ï¸</div>
-        <div>Grand Canyon lodges are right on the rim. You're in one of the most sought-after hotel positions in the USA â sunrise from your doorstep. <strong>Arrive before 8PM if possible</strong> to catch last light over the canyon.</div>
+        <div class="alert-icon">ℹ️</div>
+        <div>Grand Canyon lodges are right on the rim. You're in one of the most sought-after hotel positions in the USA — sunrise from your doorstep. <strong>Arrive before 8PM if possible</strong> to catch last light over the canyon.</div>
       </div>
 
       <div class="subsection-title">Flights to Grand Canyon</div>
@@ -911,7 +911,7 @@
             <div class="flight-name">London Heathrow</div>
           </div>
           <div class="flight-arrow">
-            <span class="flight-arrow-icon">âï¸</span>
+            <span class="flight-arrow-icon">✈️</span>
           </div>
           <div class="flight-city">
             <div class="flight-code">PHX</div>
@@ -929,7 +929,7 @@
       <div class="booking-grid">
         <div class="booking-card">
           <div class="booking-card-header">
-            <div class="booking-icon car">ð</div>
+            <div class="booking-icon car">🚗</div>
             <span class="status-badge confirmed">Confirmed</span>
           </div>
           <div class="booking-type">Car Rental</div>
@@ -942,32 +942,32 @@
         </div>
         <div class="booking-card">
           <div class="booking-card-header">
-            <div class="booking-icon car">ðºï¸</div>
+            <div class="booking-icon car">🗺️</div>
           </div>
           <div class="booking-type">Drive Times</div>
           <div class="booking-name">Key Distances</div>
           <div class="booking-details">
-            PHX â Grand Canyon South Rim: <strong>~4 hrs</strong> (225 mi via I-17 N)<br>
-            Grand Canyon â Las Vegas: <strong>~4.5 hrs</strong> (270 mi via US-89 / I-15)
+            PHX → Grand Canyon South Rim: <strong>~4 hrs</strong> (225 mi via I-17 N)<br>
+            Grand Canyon → Las Vegas: <strong>~4.5 hrs</strong> (270 mi via US-89 / I-15)
           </div>
         </div>
       </div>
 
       <div class="alert warning">
-        <div class="alert-icon">â ï¸</div>
-        <div><strong>Drop your car in Las Vegas, not New Orleans.</strong> You're flying LAS â MSY. Return National rental at Harry Reid International Airport (LAS) on May 27 before your flight.</div>
+        <div class="alert-icon">⚠️</div>
+        <div><strong>Drop your car in Las Vegas, not New Orleans.</strong> You're flying LAS → MSY. Return National rental at Harry Reid International Airport (LAS) on May 27 before your flight.</div>
       </div>
     </div>
 
     <!-- EVENTS TAB -->
     <div id="gc-events" class="tab-content">
       <div class="alert info">
-        <div class="alert-icon">ð</div>
-        <div>You're visiting 23â25 May (SaturdayâMonday). <strong>Late May is one of the best times</strong> to visit â the canyon is thawed from winter, temperatures are warm but not brutal, and the late-spring sky gives spectacular clarity.</div>
+        <div class="alert-icon">📅</div>
+        <div>You're visiting 23–25 May (Saturday–Monday). <strong>Late May is one of the best times</strong> to visit — the canyon is thawed from winter, temperatures are warm but not brutal, and the late-spring sky gives spectacular clarity.</div>
       </div>
       <div class="events-grid">
         <div class="event-card">
-          <div class="event-when gc">Sat 24 May Â· Dawn</div>
+          <div class="event-when gc">Sat 24 May · Dawn</div>
           <div class="event-name">Sunrise at Mather Point</div>
           <div class="event-desc">Watching the canyon come alive at sunrise is consistently rated as one of the most extraordinary natural experiences in the US. The shadows play across the layers in a way that afternoon visits simply can't replicate.</div>
           <div class="event-venue">Mather Point, South Rim</div>
@@ -981,15 +981,15 @@
           <span class="event-highlight gc">Free</span>
         </div>
         <div class="event-card">
-          <div class="event-when gc">May â Daily</div>
+          <div class="event-when gc">May – Daily</div>
           <div class="event-name">Desert View Watchtower</div>
-          <div class="event-desc">A 1930s stone tower by architect Mary Colter at the eastern edge of Desert View Drive. 360Â° panoramic views of the canyon, the Painted Desert, and on clear days the Navajo Nation. One of the most iconic structures in the American West.</div>
+          <div class="event-desc">A 1930s stone tower by architect Mary Colter at the eastern edge of Desert View Drive. 360° panoramic views of the canyon, the Painted Desert, and on clear days the Navajo Nation. One of the most iconic structures in the American West.</div>
           <div class="event-venue">Desert View, East Rim Drive (25 miles from Visitor Center)</div>
         </div>
         <div class="event-card">
-          <div class="event-when gc">May â Daily</div>
+          <div class="event-when gc">May – Daily</div>
           <div class="event-name">Hermit Road Sunset</div>
-          <div class="event-desc">Hermit Road is closed to private cars MarâNov but free shuttle buses run constantly. Hopi Point is considered the best sunset viewpoint in the entire park â the Colorado River is visible directly below.</div>
+          <div class="event-desc">Hermit Road is closed to private cars Mar–Nov but free shuttle buses run constantly. Hopi Point is considered the best sunset viewpoint in the entire park — the Colorado River is visible directly below.</div>
           <div class="event-venue">Hermit Road Shuttles (Red Line)</div>
           <span class="event-highlight gc">Free Shuttle</span>
         </div>
@@ -1001,29 +1001,29 @@
       <div class="subsection-title" style="margin-top:0">Best Hikes (for your 2-day visit)</div>
       <div class="rec-grid">
         <div class="rec-card">
-          <div class="rec-category activity">Hike Â· Moderate</div>
-          <div class="rec-name">Bright Angel Trail â 3-Mile Resthouse</div>
+          <div class="rec-category activity">Hike · Moderate</div>
+          <div class="rec-name">Bright Angel Trail → 3-Mile Resthouse</div>
           <div class="rec-desc">The most iconic trail in the canyon. 6 miles roundtrip to 3-Mile Resthouse, with water and toilets available. Spectacular views, shaded sections, and an achievable target for a half-day hike.</div>
           <div class="rec-tags"><span class="rec-tag">6 mi roundtrip</span><span class="rec-tag">~4 hrs</span><span class="rec-tag">Water at rest house</span></div>
           <div class="rec-why">Reddit consensus: "Best first hike into the canyon by far."</div>
         </div>
         <div class="rec-card">
-          <div class="rec-category activity">Walk Â· Easy</div>
+          <div class="rec-category activity">Walk · Easy</div>
           <div class="rec-name">South Rim Trail</div>
-          <div class="rec-desc">Follows the edge of the rim for ~13 miles with multiple stunning viewpoints. Walk as much or as little as you like â shuttle buses stop along the route so you can go one-way. Perfect for the morning after arrival.</div>
+          <div class="rec-desc">Follows the edge of the rim for ~13 miles with multiple stunning viewpoints. Walk as much or as little as you like — shuttle buses stop along the route so you can go one-way. Perfect for the morning after arrival.</div>
           <div class="rec-tags"><span class="rec-tag">Flat & paved</span><span class="rec-tag">Shuttle access</span><span class="rec-tag">Sunrise gold</span></div>
         </div>
         <div class="rec-card">
           <div class="rec-category activity">Viewpoint</div>
           <div class="rec-name">Shoshone Point</div>
-          <div class="rec-desc">A 1-mile walk through ponderosa forest that almost no tourists find. Delivers a 270Â° viewpoint with virtually no crowds. One of the great hidden gems of the South Rim.</div>
+          <div class="rec-desc">A 1-mile walk through ponderosa forest that almost no tourists find. Delivers a 270° viewpoint with virtually no crowds. One of the great hidden gems of the South Rim.</div>
           <div class="rec-tags"><span class="rec-tag">Hidden gem</span><span class="rec-tag">Low crowds</span><span class="rec-tag">1 mi each way</span></div>
           <div class="rec-why">Easy to miss but one of the best views on the rim.</div>
         </div>
         <div class="rec-card">
-          <div class="rec-category activity">Hike Â· Easy-Moderate</div>
-          <div class="rec-name">South Kaibab â Ooh Ahh Point</div>
-          <div class="rec-desc">Short hike (1.8 miles roundtrip) below the rim on the South Kaibab Trail. Dramatic 360Â° canyon views with no shade â do this early morning. The first viewpoint below the rim that stops people in their tracks.</div>
+          <div class="rec-category activity">Hike · Easy-Moderate</div>
+          <div class="rec-name">South Kaibab → Ooh Ahh Point</div>
+          <div class="rec-desc">Short hike (1.8 miles roundtrip) below the rim on the South Kaibab Trail. Dramatic 360° canyon views with no shade — do this early morning. The first viewpoint below the rim that stops people in their tracks.</div>
           <div class="rec-tags"><span class="rec-tag">1.8 mi</span><span class="rec-tag">No shade</span><span class="rec-tag">Go early</span></div>
         </div>
       </div>
@@ -1043,7 +1043,7 @@
         <div class="rec-card">
           <div class="rec-category restaurant">Dining</div>
           <div class="rec-name">El Tovar Dining Room</div>
-          <div class="rec-desc">Inside the historic El Tovar Hotel right on the rim. The best restaurant in the park â proper sit-down food in a gorgeous rustic lodge with canyon views. <strong>Book ahead.</strong></div>
+          <div class="rec-desc">Inside the historic El Tovar Hotel right on the rim. The best restaurant in the park — proper sit-down food in a gorgeous rustic lodge with canyon views. <strong>Book ahead.</strong></div>
           <div class="rec-tags"><span class="rec-tag">Rim views</span><span class="rec-tag">Historic lodge</span><span class="rec-tag">Book ahead</span></div>
         </div>
         <div class="rec-card">
@@ -1062,36 +1062,36 @@
 
       <div class="subsection-title">Practical Tips (Reddit-sourced)</div>
       <div class="practical-grid">
-        <div class="practical-item"><strong>Arizona Time Zone</strong>Arizona stays on Mountain Standard Time year-round â no daylight saving. Your phone may auto-adjust incorrectly coming from the UK. Double-check before sunrise.</div>
-        <div class="practical-item"><strong>Sunrise Timing</strong>Be at your viewpoint 30 minutes before sunrise, not at sunrise. The sky starts changing 40 minutes before â the best colours are often pre-dawn.</div>
-        <div class="practical-item"><strong>First Shuttle: 6AM</strong>The Kaibab Rim Route shuttle starts at 6AM â take it to Mather Point or Yaki Point for sunrise. Driving to the rim in the dark for a sunrise spot is unnecessary.</div>
-        <div class="practical-item"><strong>Hike Down â  Hike Up</strong>Going down is easy; the brutal part is climbing back out in the heat. Turn back when you've done â of your water. Most rescues are people who went too far down.</div>
-        <div class="practical-item"><strong>Water, Water, Water</strong>Carry 1 litre per hour of hiking. The park recommends a minimum of 1 litre per hour below the rim. Don't rely on thirst â the dry air masks dehydration.</div>
-        <div class="practical-item"><strong>Crowds at Mather Point</strong>At sunrise it's busy but manageable. For a solitude experience, walk 15 minutes west along the rim to Yavapai Point â equal views, far fewer people.</div>
+        <div class="practical-item"><strong>Arizona Time Zone</strong>Arizona stays on Mountain Standard Time year-round — no daylight saving. Your phone may auto-adjust incorrectly coming from the UK. Double-check before sunrise.</div>
+        <div class="practical-item"><strong>Sunrise Timing</strong>Be at your viewpoint 30 minutes before sunrise, not at sunrise. The sky starts changing 40 minutes before — the best colours are often pre-dawn.</div>
+        <div class="practical-item"><strong>First Shuttle: 6AM</strong>The Kaibab Rim Route shuttle starts at 6AM — take it to Mather Point or Yaki Point for sunrise. Driving to the rim in the dark for a sunrise spot is unnecessary.</div>
+        <div class="practical-item"><strong>Hike Down ≠ Hike Up</strong>Going down is easy; the brutal part is climbing back out in the heat. Turn back when you've done ⅓ of your water. Most rescues are people who went too far down.</div>
+        <div class="practical-item"><strong>Water, Water, Water</strong>Carry 1 litre per hour of hiking. The park recommends a minimum of 1 litre per hour below the rim. Don't rely on thirst — the dry air masks dehydration.</div>
+        <div class="practical-item"><strong>Crowds at Mather Point</strong>At sunrise it's busy but manageable. For a solitude experience, walk 15 minutes west along the rim to Yavapai Point — equal views, far fewer people.</div>
       </div>
 
       <div class="alert info" style="margin-top: 24px;">
-        <div class="alert-icon">ð¡ï¸</div>
-        <div><strong>Late May tips:</strong> South Rim sits at 7,000ft â temperatures are 70â85Â°F (21â29Â°C) on the rim, but it gets hot inside the canyon quickly. Hike early, carry 1 litre of water per hour, and wear a hat. Afternoon thunderstorms are possible in late May.</div>
+        <div class="alert-icon">🌡️</div>
+        <div><strong>Late May tips:</strong> South Rim sits at 7,000ft — temperatures are 70–85°F (21–29°C) on the rim, but it gets hot inside the canyon quickly. Hike early, carry 1 litre of water per hour, and wear a hat. Afternoon thunderstorms are possible in late May.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ââ LAS VEGAS âââââââââââââââââââââââââââââââââââââââââââ -->
+<!-- ══ LAS VEGAS ═══════════════════════════════════════════ -->
 <section id="las-vegas">
   <div class="dest-banner lv"></div>
   <div class="container" style="padding-top: 40px;">
     <div class="section-header">
-      <div class="section-label lv">Destination 2 of 3 Â· 25â27 May</div>
+      <div class="section-label lv">Destination 2 of 3 · 25–27 May</div>
       <h2 class="section-title">Las Vegas</h2>
-      <p class="section-meta">Nevada Â· 2 nights Â· Dylan & Lauren arrive Mon 25 May from ~3PM, fly out Wed 27 May</p>
+      <p class="section-meta">Nevada · 2 nights · Dylan & Lauren arrive Mon 25 May from ~3PM, fly out Wed 27 May</p>
     </div>
 
     <div class="tabs" id="lv-tabs">
-      <button class="tab-btn active lv" onclick="switchTab('lv', 'logistics')">ð¨ Logistics</button>
-      <button class="tab-btn lv" onclick="switchTab('lv', 'events')">ð What's On</button>
-      <button class="tab-btn lv" onclick="switchTab('lv', 'explore')">ð° Explore</button>
+      <button class="tab-btn active lv" onclick="switchTab('lv', 'logistics')">🏨 Logistics</button>
+      <button class="tab-btn lv" onclick="switchTab('lv', 'events')">📅 What's On</button>
+      <button class="tab-btn lv" onclick="switchTab('lv', 'explore')">🎰 Explore</button>
     </div>
 
     <!-- LOGISTICS TAB -->
@@ -1100,7 +1100,7 @@
         <div class="hotel-spotlight-header lv">
           <div>
             <div class="hotel-spotlight-title">Wynn Las Vegas</div>
-            <div class="hotel-spotlight-sub">Encore Tower Â· Panoramic View King Â· 3131 Las Vegas Blvd South</div>
+            <div class="hotel-spotlight-sub">Encore Tower · Panoramic View King · 3131 Las Vegas Blvd South</div>
           </div>
           <span class="status-badge confirmed">Confirmed</span>
         </div>
@@ -1137,8 +1137,8 @@
       </div>
 
       <div class="alert info">
-        <div class="alert-icon">ð³</div>
-        <div>Second payment due by 24 May 2026 (within 36 days of arrival). Resort fee payable at the hotel. Minimum check-in age is 21 â bring photo ID.</div>
+        <div class="alert-icon">💳</div>
+        <div>Second payment due by 24 May 2026 (within 36 days of arrival). Resort fee payable at the hotel. Minimum check-in age is 21 — bring photo ID.</div>
       </div>
 
       <div class="subsection-title">Flights from Las Vegas</div>
@@ -1150,7 +1150,7 @@
             <div class="flight-name">Las Vegas</div>
           </div>
           <div class="flight-arrow">
-            <span class="flight-arrow-icon">âï¸</span>
+            <span class="flight-arrow-icon">✈️</span>
           </div>
           <div class="flight-city">
             <div class="flight-code">MSY</div>
@@ -1164,13 +1164,13 @@
       </div>
 
       <div class="alert warning" style="margin-top: 16px;">
-        <div class="alert-icon">ð</div>
+        <div class="alert-icon">🚗</div>
         <div><strong>Return your National rental car at Harry Reid International (LAS)</strong> before your flight to New Orleans on May 27. Drop-off at the airport car rental centre. Booking.com ref: #745451363.</div>
       </div>
 
       <div class="subsection-title">Wynn Inclusions</div>
       <div class="practical-grid">
-        <div class="practical-item"><strong>Pool Access</strong>9AMâ5PM daily. The Wynn/Encore pools are among the most beautiful on the Strip.</div>
+        <div class="practical-item"><strong>Pool Access</strong>9AM–5PM daily. The Wynn/Encore pools are among the most beautiful on the Strip.</div>
         <div class="practical-item"><strong>Free WiFi</strong>Throughout the property.</div>
         <div class="practical-item"><strong>Fitness Centre</strong>Included in resort fee.</div>
         <div class="practical-item"><strong>Parking</strong>Self-park and valet available (included in resort fee).</div>
@@ -1182,21 +1182,21 @@
     <!-- EVENTS TAB -->
     <div id="lv-events" class="tab-content">
       <div class="alert success">
-        <div class="alert-icon">ð</div>
-        <div>You're in Vegas for <strong>Memorial Day weekend</strong> (May 25â27) â one of the biggest party weekends of the year. Expect sold-out clubs, huge residency nights, and EDC Week afterparties throughout the city.</div>
+        <div class="alert-icon">🎉</div>
+        <div>You're in Vegas for <strong>Memorial Day weekend</strong> (May 25–27) — one of the biggest party weekends of the year. Expect sold-out clubs, huge residency nights, and EDC Week afterparties throughout the city.</div>
       </div>
       <div class="events-grid">
         <div class="event-card">
           <div class="event-when lv">Mon 25 & Tue 26 May</div>
-          <div class="event-name">Ali Wong â Live at Encore Theatre</div>
-          <div class="event-desc">The Grammy-nominated comedian performs at Encore Theatre â which is literally inside your hotel. One of the hottest comedy acts of 2026, known for her razor-sharp, unfiltered material.</div>
+          <div class="event-name">Ali Wong — Live at Encore Theatre</div>
+          <div class="event-desc">The Grammy-nominated comedian performs at Encore Theatre — which is literally inside your hotel. One of the hottest comedy acts of 2026, known for her razor-sharp, unfiltered material.</div>
           <div class="event-venue">Encore Theatre at Wynn Las Vegas</div>
           <span class="event-highlight">In Your Hotel</span>
         </div>
         <div class="event-card">
           <div class="event-when lv">Mon 25 & Tue 26 May</div>
           <div class="event-name">Sammy Hagar</div>
-          <div class="event-desc">The rock legend performs at Dolby Live. If you're a rock fan, this is a legendary Vegas residency act â full band, hits from Van Halen and solo career.</div>
+          <div class="event-desc">The rock legend performs at Dolby Live. If you're a rock fan, this is a legendary Vegas residency act — full band, hits from Van Halen and solo career.</div>
           <div class="event-venue">Dolby Live at Park MGM</div>
         </div>
         <div class="event-card">
@@ -1208,11 +1208,11 @@
         <div class="event-card">
           <div class="event-when lv">Tue 26 May</div>
           <div class="event-name">Daniel Tosh</div>
-          <div class="event-desc">The comedian performs at The Cosmopolitan â one of the best intimate comedy rooms on the Strip. Sharp, dark humour.</div>
+          <div class="event-desc">The comedian performs at The Cosmopolitan — one of the best intimate comedy rooms on the Strip. Sharp, dark humour.</div>
           <div class="event-venue">The Chelsea, The Cosmopolitan</div>
         </div>
         <div class="event-card">
-          <div class="event-when lv">Now â June 13</div>
+          <div class="event-when lv">Now – June 13</div>
           <div class="event-name">No Doubt at The Sphere</div>
           <div class="event-desc">No Doubt's reunited residency at the Sphere is one of the most technically spectacular concerts ever staged. The 18,600-seat LED sphere delivers visuals that have to be seen to be believed.</div>
           <div class="event-venue">Sphere, Las Vegas</div>
@@ -1221,14 +1221,14 @@
         <div class="event-card">
           <div class="event-when lv">Memorial Day Weekend</div>
           <div class="event-name">EDC Week Afterparties</div>
-          <div class="event-desc">EDC Week (Electric Daisy Carnival) takes over Las Vegas each May. Official afterparties at every major nightclub on the Strip â Omnia, XS, Hakkasan, and more. The city's club scene goes into overdrive.</div>
-          <div class="event-venue">Citywide Â· Strip nightclubs</div>
+          <div class="event-desc">EDC Week (Electric Daisy Carnival) takes over Las Vegas each May. Official afterparties at every major nightclub on the Strip — Omnia, XS, Hakkasan, and more. The city's club scene goes into overdrive.</div>
+          <div class="event-venue">Citywide · Strip nightclubs</div>
           <span class="event-highlight">XS is on your property</span>
         </div>
         <div class="event-card">
           <div class="event-when lv">Ongoing</div>
-          <div class="event-name">Awakening â Wynn Theatre</div>
-          <div class="event-desc">The resident spectacular at Wynn â illusions, dance, puppetry, and live music in one of the most technologically advanced theatres in the world. The kind of production only Las Vegas can produce.</div>
+          <div class="event-name">Awakening — Wynn Theatre</div>
+          <div class="event-desc">The resident spectacular at Wynn — illusions, dance, puppetry, and live music in one of the most technologically advanced theatres in the world. The kind of production only Las Vegas can produce.</div>
           <div class="event-venue">Wynn Theatre, Wynn Las Vegas</div>
           <span class="event-highlight">In Your Hotel</span>
         </div>
@@ -1240,28 +1240,28 @@
       <div class="subsection-title" style="margin-top:0">Restaurants at Wynn</div>
       <div class="rec-grid">
         <div class="rec-card">
-          <div class="rec-category restaurant">Fine Dining Â· Supper Club</div>
+          <div class="rec-category restaurant">Fine Dining · Supper Club</div>
           <div class="rec-name">Delilah</div>
-          <div class="rec-desc">Vegas's most glamorous dining room â think 1940s Hollywood supper club. Live entertainment, exceptional cocktails, and theatrical food. The place for a proper special evening.</div>
+          <div class="rec-desc">Vegas's most glamorous dining room — think 1940s Hollywood supper club. Live entertainment, exceptional cocktails, and theatrical food. The place for a proper special evening.</div>
           <div class="rec-tags"><span class="rec-tag">Book ahead</span><span class="rec-tag">Dress up</span><span class="rec-tag">Live entertainment</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category restaurant">Fine Dining Â· Steakhouse</div>
+          <div class="rec-category restaurant">Fine Dining · Steakhouse</div>
           <div class="rec-name">SW Steakhouse</div>
-          <div class="rec-desc">Lakeside setting on Wynn's Lake of Dreams â the light show creates a theatrical backdrop during dinner. Premium steaks and pristine seafood. A spectacularly romantic setting.</div>
+          <div class="rec-desc">Lakeside setting on Wynn's Lake of Dreams — the light show creates a theatrical backdrop during dinner. Premium steaks and pristine seafood. A spectacularly romantic setting.</div>
           <div class="rec-tags"><span class="rec-tag">Lake of Dreams views</span><span class="rec-tag">Light show</span></div>
-          <div class="rec-why">Perfect for a couples' dinner â the lake show runs during dinner service.</div>
+          <div class="rec-why">Perfect for a couples' dinner — the lake show runs during dinner service.</div>
         </div>
         <div class="rec-card">
-          <div class="rec-category restaurant">Italian Â· Classic</div>
+          <div class="rec-category restaurant">Italian · Classic</div>
           <div class="rec-name">Cipriani</div>
-          <div class="rec-desc">A global symbol of Venetian luxury â famous beef carpaccio, baked tagliolini with Praga ham, and the legendary vanilla meringue cake. Unfussy, polished, exceptional.</div>
+          <div class="rec-desc">A global symbol of Venetian luxury — famous beef carpaccio, baked tagliolini with Praga ham, and the legendary vanilla meringue cake. Unfussy, polished, exceptional.</div>
           <div class="rec-tags"><span class="rec-tag">Iconic brand</span><span class="rec-tag">Classic Italian</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category restaurant">American Â· Seasonal</div>
+          <div class="rec-category restaurant">American · Seasonal</div>
           <div class="rec-name">Jardin at Encore</div>
-          <div class="rec-desc">Chef Kyle Johnson's innovative seasonal American fare in a sleek Encore setting. The newest restaurant in the complex â great for a pre-show dinner before Ali Wong.</div>
+          <div class="rec-desc">Chef Kyle Johnson's innovative seasonal American fare in a sleek Encore setting. The newest restaurant in the complex — great for a pre-show dinner before Ali Wong.</div>
           <div class="rec-tags"><span class="rec-tag">Pre-theatre</span><span class="rec-tag">Seasonal menu</span></div>
         </div>
       </div>
@@ -1277,7 +1277,7 @@
         <div class="rec-card">
           <div class="rec-category bar">Nightclub</div>
           <div class="rec-name">XS Nightclub</div>
-          <div class="rec-desc">40,000 sq ft of gold-leafed indoor-outdoor nightclub â Wynn's own club and consistently one of the top 3 in the world. As a couple you'll often get free or reduced entry. The poolside cabana area is exceptional.</div>
+          <div class="rec-desc">40,000 sq ft of gold-leafed indoor-outdoor nightclub — Wynn's own club and consistently one of the top 3 in the world. As a couple you'll often get free or reduced entry. The poolside cabana area is exceptional.</div>
           <div class="rec-tags"><span class="rec-tag">On your property</span><span class="rec-tag">Couples' entry</span><span class="rec-tag">Outdoor pool area</span></div>
         </div>
         <div class="rec-card">
@@ -1289,7 +1289,7 @@
         <div class="rec-card">
           <div class="rec-category activity">Experience</div>
           <div class="rec-name">High Roller Observation Wheel</div>
-          <div class="rec-desc">550ft tall â the world's largest observation wheel. Takes 30 minutes per rotation. The evening ride with the Strip lit up is spectacular. Open bar cabins available.</div>
+          <div class="rec-desc">550ft tall — the world's largest observation wheel. Takes 30 minutes per rotation. The evening ride with the Strip lit up is spectacular. Open bar cabins available.</div>
           <div class="rec-tags"><span class="rec-tag">Strip at night</span><span class="rec-tag">Open bar option</span></div>
         </div>
       </div>
@@ -1297,75 +1297,75 @@
       <div class="subsection-title">Reddit's Top Picks (Off-Property)</div>
       <div class="rec-grid">
         <div class="rec-card">
-          <div class="rec-category restaurant">Restaurant Â· Roy Choi</div>
+          <div class="rec-category restaurant">Restaurant · Roy Choi</div>
           <div class="rec-name">Best Friend</div>
-          <div class="rec-desc">Roy Choi's Korean-American restaurant at Park MGM â consistently Reddit's most-cited off-Strip restaurant recommendation. Kalbi short rib, Korean fried chicken, and a bar menu that punches hard. Buzzy, vibrant, and genuinely excellent.</div>
+          <div class="rec-desc">Roy Choi's Korean-American restaurant at Park MGM — consistently Reddit's most-cited off-Strip restaurant recommendation. Kalbi short rib, Korean fried chicken, and a bar menu that punches hard. Buzzy, vibrant, and genuinely excellent.</div>
           <div class="rec-tags"><span class="rec-tag">Park MGM</span><span class="rec-tag">Roy Choi</span><span class="rec-tag">Reddit #1</span></div>
           <div class="rec-why">Reddit: "Best restaurant in Vegas that isn't at the Wynn."</div>
         </div>
         <div class="rec-card">
-          <div class="rec-category restaurant">Italian Â· Arts District</div>
+          <div class="rec-category restaurant">Italian · Arts District</div>
           <div class="rec-name">Esther's Kitchen</div>
-          <div class="rec-desc">A local institution in the Arts District â house-made pasta, wood-fired dishes, and a genuinely warm neighbourhood vibe completely unlike the Strip. Redditors consistently list it as the best non-casino meal in Vegas. Book ahead.</div>
+          <div class="rec-desc">A local institution in the Arts District — house-made pasta, wood-fired dishes, and a genuinely warm neighbourhood vibe completely unlike the Strip. Redditors consistently list it as the best non-casino meal in Vegas. Book ahead.</div>
           <div class="rec-tags"><span class="rec-tag">Arts District</span><span class="rec-tag">Local favourite</span><span class="rec-tag">Book ahead</span></div>
           <div class="rec-why">Reddit: "If you only go off-Strip once, make it Esther's."</div>
         </div>
         <div class="rec-card">
-          <div class="rec-category bar">Rooftop Bar Â· Views</div>
+          <div class="rec-category bar">Rooftop Bar · Views</div>
           <div class="rec-name">Skyfall Lounge</div>
-          <div class="rec-desc">The 64th floor rooftop bar at the Delano Las Vegas â one of the most spectacular views of the Strip anywhere in the city. Intimate, sophisticated, and an antidote to the sprawling megaclub format. Perfect for a sunset cocktail before dinner.</div>
+          <div class="rec-desc">The 64th floor rooftop bar at the Delano Las Vegas — one of the most spectacular views of the Strip anywhere in the city. Intimate, sophisticated, and an antidote to the sprawling megaclub format. Perfect for a sunset cocktail before dinner.</div>
           <div class="rec-tags"><span class="rec-tag">64th floor</span><span class="rec-tag">Strip views</span><span class="rec-tag">Sunset drinks</span></div>
           <div class="rec-why">Reddit's top pick for a romantic Strip view without the chaos.</div>
         </div>
         <div class="rec-card">
-          <div class="rec-category bar">Tea & Cocktails Â· Intimate</div>
+          <div class="rec-category bar">Tea & Cocktails · Intimate</div>
           <div class="rec-name">Waldorf Astoria Lounge</div>
-          <div class="rec-desc">The Waldorf Astoria's sophisticated lounge at the top of the non-gaming CityCenter tower â genuinely tranquil, exceptional cocktails, and panoramic Strip views without a casino in sight. Reddit's most-recommended "couples' escape" from the Strip.</div>
+          <div class="rec-desc">The Waldorf Astoria's sophisticated lounge at the top of the non-gaming CityCenter tower — genuinely tranquil, exceptional cocktails, and panoramic Strip views without a casino in sight. Reddit's most-recommended "couples' escape" from the Strip.</div>
           <div class="rec-tags"><span class="rec-tag">CityCenter</span><span class="rec-tag">No casino</span><span class="rec-tag">Couples' favourite</span></div>
           <div class="rec-why">Reddit: "Perfect date-night spot away from the noise."</div>
         </div>
       </div>
 
       <div class="alert info" style="margin-top: 24px;">
-        <div class="alert-icon">ð°</div>
-        <div><strong>Vegas tip:</strong> Wynn has one of the most beautiful casino floors in the world â worth a wander even if you don't gamble. For food beyond the Wynn, The Cosmopolitan and Bellagio are a short walk south on the Strip.</div>
+        <div class="alert-icon">🎰</div>
+        <div><strong>Vegas tip:</strong> Wynn has one of the most beautiful casino floors in the world — worth a wander even if you don't gamble. For food beyond the Wynn, The Cosmopolitan and Bellagio are a short walk south on the Strip.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ââ NEW ORLEANS ââââââââââââââââââââââââââââââââââââââââ -->
+<!-- ══ NEW ORLEANS ════════════════════════════════════════ -->
 <section id="new-orleans">
   <div class="dest-banner no"></div>
   <div class="container" style="padding-top: 40px;">
     <div class="section-header">
-      <div class="section-label no">Destination 3 of 3 Â· 27 May â 1 Jun</div>
+      <div class="section-label no">Destination 3 of 3 · 27 May – 1 Jun</div>
       <h2 class="section-title">New Orleans</h2>
-      <p class="section-meta">Louisiana Â· 5 nights Â· Dylan & Lauren arrive Wed 27 May, depart Sun 1 June at 21:50</p>
+      <p class="section-meta">Louisiana · 5 nights · Dylan & Lauren arrive Wed 27 May, depart Sun 1 June at 21:50</p>
     </div>
 
     <div class="tabs" id="no-tabs">
-      <button class="tab-btn active no" onclick="switchTab('no', 'logistics')">ð¨ Logistics</button>
-      <button class="tab-btn no" onclick="switchTab('no', 'events')">ð What's On</button>
-      <button class="tab-btn no" onclick="switchTab('no', 'explore')">ð· Explore</button>
+      <button class="tab-btn active no" onclick="switchTab('no', 'logistics')">🏨 Logistics</button>
+      <button class="tab-btn no" onclick="switchTab('no', 'events')">📅 What's On</button>
+      <button class="tab-btn no" onclick="switchTab('no', 'explore')">🎷 Explore</button>
     </div>
 
     <!-- LOGISTICS TAB -->
     <div id="no-logistics" class="tab-content active">
 
       <div class="tbd-banner">
-        <h3>ð¨ Hotel Not Yet Booked</h3>
-        <p>You need 5 nights (27 May â 1 Jun). See recommendations below â your Notion shortlist included Maison Metier and The Chloe. Reddit-backed picks also below.</p>
+        <h3>🏨 Hotel Not Yet Booked</h3>
+        <p>You need 5 nights (27 May – 1 Jun). See recommendations below — your Notion shortlist included Maison Metier and The Chloe. Reddit-backed picks also below.</p>
       </div>
 
       <div class="subsection-title" style="margin-top: 0">Hotel Recommendations for New Orleans</div>
       <div class="booking-grid">
         <div class="booking-card">
           <div class="booking-card-header">
-            <div class="booking-icon no">ð¿</div>
+            <div class="booking-icon no">🌿</div>
             <span class="status-badge pending">Your Shortlist</span>
           </div>
-          <div class="booking-type">Garden District Â· Boutique</div>
+          <div class="booking-type">Garden District · Boutique</div>
           <div class="booking-name">Maison Metier</div>
           <div class="booking-details">Your Notion note: "maybe a bit CBD". Stylish, modern boutique in the CBD/Garden District area. More understated and residential-feeling than the French Quarter options. Excellent for couples who want quiet evenings.</div>
           <div class="rec-tags" style="margin-top:10px;display:flex;gap:6px;flex-wrap:wrap">
@@ -1374,10 +1374,10 @@
         </div>
         <div class="booking-card">
           <div class="booking-card-header">
-            <div class="booking-icon no">ð¸</div>
+            <div class="booking-icon no">🌸</div>
             <span class="status-badge pending">Your Shortlist</span>
           </div>
-          <div class="booking-type">Uptown Â· Super Boutique</div>
+          <div class="booking-type">Uptown · Super Boutique</div>
           <div class="booking-name">The Chloe</div>
           <div class="booking-details">Your Notion note: "super boutique, maybe a bit far". A stunning 14-room mansion hotel in Uptown. Pool, rooftop bar, exceptional design. Distance from French Quarter (~15 min) is the trade-off for the intimate experience.</div>
           <div class="rec-tags" style="margin-top:10px;display:flex;gap:6px;flex-wrap:wrap">
@@ -1386,9 +1386,9 @@
         </div>
         <div class="booking-card">
           <div class="booking-card-header">
-            <div class="booking-icon no">ðï¸</div>
+            <div class="booking-icon no">🏛️</div>
           </div>
-          <div class="booking-type">French Quarter Â· Classic</div>
+          <div class="booking-type">French Quarter · Classic</div>
           <div class="booking-name">Hotel Mazarin</div>
           <div class="booking-details">Half a block from Bourbon and Royal Streets. 102 elegant rooms with a beautiful courtyard bar. Tuxedoed staff and old-world French Quarter atmosphere. Best location for walking to restaurants and jazz.</div>
           <div class="rec-tags" style="margin-top:10px;display:flex;gap:6px;flex-wrap:wrap">
@@ -1397,22 +1397,22 @@
         </div>
         <div class="booking-card">
           <div class="booking-card-header">
-            <div class="booking-icon no">ðº</div>
+            <div class="booking-icon no">🌺</div>
           </div>
-          <div class="booking-type">French Quarter Â· Boutique</div>
+          <div class="booking-type">French Quarter · Boutique</div>
           <div class="booking-name">Dauphine Orleans Hotel</div>
-          <div class="booking-details">19th-century townhouse turned boutique hotel. A heated saltwater pool in a lush garden courtyard â genuinely beautiful and rare in the French Quarter. Steps from everything.</div>
+          <div class="booking-details">19th-century townhouse turned boutique hotel. A heated saltwater pool in a lush garden courtyard — genuinely beautiful and rare in the French Quarter. Steps from everything.</div>
           <div class="rec-tags" style="margin-top:10px;display:flex;gap:6px;flex-wrap:wrap">
             <span class="rec-tag">Saltwater pool</span><span class="rec-tag">Garden courtyard</span>
           </div>
         </div>
         <div class="booking-card">
           <div class="booking-card-header">
-            <div class="booking-icon no">ð³</div>
+            <div class="booking-icon no">🌳</div>
           </div>
-          <div class="booking-type">Garden District Â· Design</div>
+          <div class="booking-type">Garden District · Design</div>
           <div class="booking-name">The Henry Howard Hotel</div>
-          <div class="booking-details">A Garden District gem with extraordinary interior design â custom beds, brass band dÃ©cor, and quintessentially New Orleans details. Quiet neighbourhood, beautiful architecture, very romantic.</div>
+          <div class="booking-details">A Garden District gem with extraordinary interior design — custom beds, brass band décor, and quintessentially New Orleans details. Quiet neighbourhood, beautiful architecture, very romantic.</div>
           <div class="rec-tags" style="margin-top:10px;display:flex;gap:6px;flex-wrap:wrap">
             <span class="rec-tag">Garden District</span><span class="rec-tag">Design hotel</span>
           </div>
@@ -1428,7 +1428,7 @@
             <div class="flight-name">Las Vegas</div>
           </div>
           <div class="flight-arrow">
-            <span class="flight-arrow-icon">âï¸</span>
+            <span class="flight-arrow-icon">✈️</span>
           </div>
           <div class="flight-city">
             <div class="flight-code">MSY</div>
@@ -1448,7 +1448,7 @@
             <div class="flight-name">New Orleans</div>
           </div>
           <div class="flight-arrow">
-            <span class="flight-arrow-icon">âï¸</span>
+            <span class="flight-arrow-icon">✈️</span>
           </div>
           <div class="flight-city">
             <div class="flight-code">LHR</div>
@@ -1456,57 +1456,57 @@
           </div>
         </div>
         <div class="flight-meta">
-          <div>Sun 1 Jun Â· 21:50</div>
-          <div>Arrives Mon 2 Jun Â· 12:40</div>
+          <div>Sun 1 Jun · 21:50</div>
+          <div>Arrives Mon 2 Jun · 12:40</div>
           <div class="flight-ref">XX2EY8</div>
           <span class="status-badge confirmed" style="display:inline-block;margin-top:4px">Confirmed</span>
         </div>
       </div>
 
       <div class="alert warning" style="margin-top: 16px;">
-        <div class="alert-icon">â°</div>
-        <div>Your BA flight departs at <strong>21:50</strong> on Sunday 1 June. You have the full day in New Orleans. MSY is about 30 minutes from the French Quarter â allow 90 minutes to the airport with bags. Leave the hotel by 18:30 at the latest.</div>
+        <div class="alert-icon">⏰</div>
+        <div>Your BA flight departs at <strong>21:50</strong> on Sunday 1 June. You have the full day in New Orleans. MSY is about 30 minutes from the French Quarter — allow 90 minutes to the airport with bags. Leave the hotel by 18:30 at the latest.</div>
       </div>
     </div>
 
     <!-- EVENTS TAB -->
     <div id="no-events" class="tab-content">
       <div class="alert info">
-        <div class="alert-icon">ð¶</div>
-        <div>You're in New Orleans 27 May â 1 June â late spring, the start of summer. The city is alive with live music every night. Frenchmen Street runs 7 nights a week regardless of season.</div>
+        <div class="alert-icon">🎶</div>
+        <div>You're in New Orleans 27 May – 1 June — late spring, the start of summer. The city is alive with live music every night. Frenchmen Street runs 7 nights a week regardless of season.</div>
       </div>
       <div class="events-grid">
         <div class="event-card">
           <div class="event-when no">Every Night</div>
           <div class="event-name">Frenchmen Street Live Music</div>
-          <div class="event-desc">The most consistently musical stretch of road in America. Multiple clubs within 200 metres â all with live jazz, brass, funk, and blues spilling out onto the street. Most have no cover charge. This is the real New Orleans music scene, not Bourbon Street.</div>
+          <div class="event-desc">The most consistently musical stretch of road in America. Multiple clubs within 200 metres — all with live jazz, brass, funk, and blues spilling out onto the street. Most have no cover charge. This is the real New Orleans music scene, not Bourbon Street.</div>
           <div class="event-venue">Frenchmen Street, Marigny</div>
           <span class="event-highlight no">Non-negotiable</span>
         </div>
         <div class="event-card">
           <div class="event-when no">Memorial Day Weekend</div>
           <div class="event-name">Memorial Day Festivities</div>
-          <div class="event-desc">New Orleans throws one of the country's best Memorial Day weekends â outdoor concerts, special events at Bayou St. John, and the city's nightlife in full swing. One of the biggest party weekends of the local calendar.</div>
+          <div class="event-desc">New Orleans throws one of the country's best Memorial Day weekends — outdoor concerts, special events at Bayou St. John, and the city's nightlife in full swing. One of the biggest party weekends of the local calendar.</div>
           <div class="event-venue">Citywide</div>
         </div>
         <div class="event-card">
           <div class="event-when no">Nightly</div>
           <div class="event-name">Preservation Hall</div>
-          <div class="event-desc">The most iconic jazz venue in the world. Multiple sets per night in an intimate, original space. The Preservation Hall Jazz Band has been playing here since 1961. Queue early or book ahead â it sells out nightly.</div>
+          <div class="event-desc">The most iconic jazz venue in the world. Multiple sets per night in an intimate, original space. The Preservation Hall Jazz Band has been playing here since 1961. Queue early or book ahead — it sells out nightly.</div>
           <div class="event-venue">726 St Peter Street, French Quarter</div>
           <span class="event-highlight no">Iconic</span>
         </div>
         <div class="event-card">
           <div class="event-when no">Any Day</div>
           <div class="event-name">Second Line Parade</div>
-          <div class="event-desc">Social Aid and Pleasure Club second line parades happen on weekends throughout the year. If one coincides with your visit it will be one of the great unrepeatable New Orleans moments â brass bands, dancing through neighbourhoods.</div>
+          <div class="event-desc">Social Aid and Pleasure Club second line parades happen on weekends throughout the year. If one coincides with your visit it will be one of the great unrepeatable New Orleans moments — brass bands, dancing through neighbourhoods.</div>
           <div class="event-venue">Various neighbourhoods</div>
           <span class="event-highlight no">If you're lucky</span>
         </div>
         <div class="event-card">
           <div class="event-when no">Daily</div>
           <div class="event-name">National WWII Museum</div>
-          <div class="event-desc">Regularly voted the best museum in the US. Massive, emotionally overwhelming, and brilliantly curated. Plan 3â4 hours minimum. Military ID gets discounted or free entry over Memorial Day weekend.</div>
+          <div class="event-desc">Regularly voted the best museum in the US. Massive, emotionally overwhelming, and brilliantly curated. Plan 3–4 hours minimum. Military ID gets discounted or free entry over Memorial Day weekend.</div>
           <div class="event-venue">945 Magazine Street</div>
           <span class="event-highlight no">Book ahead</span>
         </div>
@@ -1521,63 +1521,63 @@
 
     <!-- EXPLORE TAB -->
     <div id="no-explore" class="tab-content">
-      <div class="subsection-title" style="margin-top:0">Restaurants â The Shortlist</div>
+      <div class="subsection-title" style="margin-top:0">Restaurants — The Shortlist</div>
       <div class="rec-grid">
         <div class="rec-card">
-          <div class="rec-category restaurant">West African Â· Modern Creole</div>
-          <div class="rec-name">Dakar NOLA â­</div>
-          <div class="rec-desc">James Beard Award winner â Best New Restaurant in the USA 2024. Chef Serigne Mbaye fuses Senegalese cuisine with Louisiana ingredients in a stunning TremÃ© setting. The hottest and most talked-about table in New Orleans right now.</div>
+          <div class="rec-category restaurant">West African · Modern Creole</div>
+          <div class="rec-name">Dakar NOLA ⭐</div>
+          <div class="rec-desc">James Beard Award winner — Best New Restaurant in the USA 2024. Chef Serigne Mbaye fuses Senegalese cuisine with Louisiana ingredients in a stunning Tremé setting. The hottest and most talked-about table in New Orleans right now.</div>
           <div class="rec-tags"><span class="rec-tag">James Beard 2024</span><span class="rec-tag">Book immediately</span><span class="rec-tag">Unmissable</span></div>
           <div class="rec-why">Reddit: "This is the restaurant of the year. Book the second you land."</div>
         </div>
         <div class="rec-card">
-          <div class="rec-category restaurant">Haute Creole Â· Institution</div>
+          <div class="rec-category restaurant">Haute Creole · Institution</div>
           <div class="rec-name">Commander's Palace</div>
-          <div class="rec-desc">Frequently cited as the best restaurant in New Orleans â 7 James Beard Awards, the training ground of Emeril Lagasse and Paul Prudhomme. Haute Creole in the Garden District. <strong>Book weeks ahead.</strong></div>
+          <div class="rec-desc">Frequently cited as the best restaurant in New Orleans — 7 James Beard Awards, the training ground of Emeril Lagasse and Paul Prudhomme. Haute Creole in the Garden District. <strong>Book weeks ahead.</strong></div>
           <div class="rec-tags"><span class="rec-tag">James Beard</span><span class="rec-tag">Garden District</span><span class="rec-tag">Book way ahead</span></div>
           <div class="rec-why">The pinnacle of New Orleans dining. Worth planning the trip around.</div>
         </div>
         <div class="rec-card">
-          <div class="rec-category restaurant">Classic Creole Â· Historic</div>
+          <div class="rec-category restaurant">Classic Creole · Historic</div>
           <div class="rec-name">Galatoire's</div>
-          <div class="rec-desc">On Bourbon Street since 1905 â tuxedoed waitstaff, white tablecloths, and the definitive Creole classics: shrimp remoulade, oysters Rockefeller, crab Yvonne. Friday lunch here is a New Orleans institution.</div>
+          <div class="rec-desc">On Bourbon Street since 1905 — tuxedoed waitstaff, white tablecloths, and the definitive Creole classics: shrimp remoulade, oysters Rockefeller, crab Yvonne. Friday lunch here is a New Orleans institution.</div>
           <div class="rec-tags"><span class="rec-tag">Since 1905</span><span class="rec-tag">Friday lunch</span><span class="rec-tag">French Quarter</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category restaurant">Michelin 2-Star Â· Modern</div>
+          <div class="rec-category restaurant">Michelin 2-Star · Modern</div>
           <div class="rec-name">Meril (Emeril Lagasse)</div>
-          <div class="rec-desc">New Orleans's only 2-star Michelin restaurant. Emeril Lagasse's flagship in the Warehouse District. More contemporary than his classic venues â inventive, precise, and spectacular.</div>
+          <div class="rec-desc">New Orleans's only 2-star Michelin restaurant. Emeril Lagasse's flagship in the Warehouse District. More contemporary than his classic venues — inventive, precise, and spectacular.</div>
           <div class="rec-tags"><span class="rec-tag">2 Michelin Stars</span><span class="rec-tag">Warehouse District</span><span class="rec-tag">Book ahead</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category restaurant">French Brasserie Â· Modern</div>
+          <div class="rec-category restaurant">French Brasserie · Modern</div>
           <div class="rec-name">MaMou</div>
-          <div class="rec-desc">A Parisian-inspired brasserie in the French Quarter â partnership between chef Tom Branighan and sommelier Molly Wismeier. The most exciting newer restaurant in town. Refined but lively, with exceptional natural wines.</div>
+          <div class="rec-desc">A Parisian-inspired brasserie in the French Quarter — partnership between chef Tom Branighan and sommelier Molly Wismeier. The most exciting newer restaurant in town. Refined but lively, with exceptional natural wines.</div>
           <div class="rec-tags"><span class="rec-tag">Natural wine</span><span class="rec-tag">French Quarter</span><span class="rec-tag">New & hot</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category restaurant">Southern Â· Bistro</div>
+          <div class="rec-category restaurant">Southern · Bistro</div>
           <div class="rec-name">Sylvain</div>
           <div class="rec-desc">A 1700s carriage house with a candlelit courtyard and lantern-lit rooms. Southern fare and superb cocktails. Intimate, romantic, and consistently one of the city's favourite date night spots.</div>
           <div class="rec-tags"><span class="rec-tag">Courtyard</span><span class="rec-tag">Date night</span><span class="rec-tag">1700s building</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category restaurant">French Bistro Â· Elevated</div>
+          <div class="rec-category restaurant">French Bistro · Elevated</div>
           <div class="rec-name">La Petite Grocery</div>
-          <div class="rec-desc">Beautiful Magazine Street bistro serving elevated French classics with Louisiana ingredients â blue crab beignets, ricotta dumplings, yellowfin tuna tartare. One of the city's most acclaimed neighbourhood restaurants.</div>
+          <div class="rec-desc">Beautiful Magazine Street bistro serving elevated French classics with Louisiana ingredients — blue crab beignets, ricotta dumplings, yellowfin tuna tartare. One of the city's most acclaimed neighbourhood restaurants.</div>
           <div class="rec-tags"><span class="rec-tag">Magazine Street</span><span class="rec-tag">Garden District adj.</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category restaurant">New American Â· French Quarter</div>
+          <div class="rec-category restaurant">New American · French Quarter</div>
           <div class="rec-name">R'evolution</div>
           <div class="rec-desc">Chef Rick Tramonto's celebration of Louisiana ingredients inside the Royal Sonesta Hotel. Theatrical presentation, outstanding Gulf seafood, and a 10,000-bottle wine cellar. Consistently rated one of the best dining rooms in the city by Reddit's NOLA regulars.</div>
           <div class="rec-tags"><span class="rec-tag">French Quarter</span><span class="rec-tag">Royal Sonesta</span><span class="rec-tag">Wine list</span></div>
           <div class="rec-why">Reddit: "Great for a special dinner if Commander's is fully booked."</div>
         </div>
         <div class="rec-card">
-          <div class="rec-category restaurant">Seafood Â· Best in City</div>
+          <div class="rec-category restaurant">Seafood · Best in City</div>
           <div class="rec-name">GW Fins</div>
-          <div class="rec-desc">Reddit's most-cited answer to "best seafood in New Orleans." The menu changes daily based on what's freshest â Gulf fish, oysters, and shellfish treated simply and with mastery. A more modern, relaxed alternative to the classic Creole restaurants.</div>
+          <div class="rec-desc">Reddit's most-cited answer to "best seafood in New Orleans." The menu changes daily based on what's freshest — Gulf fish, oysters, and shellfish treated simply and with mastery. A more modern, relaxed alternative to the classic Creole restaurants.</div>
           <div class="rec-tags"><span class="rec-tag">Daily-changing menu</span><span class="rec-tag">Gulf seafood</span><span class="rec-tag">French Quarter</span></div>
           <div class="rec-why">Reddit: "Best fish in the city, not even close."</div>
         </div>
@@ -1586,33 +1586,33 @@
       <div class="subsection-title">Jazz & Nightlife</div>
       <div class="rec-grid">
         <div class="rec-card">
-          <div class="rec-category bar">Jazz Club Â· Local Favourite</div>
+          <div class="rec-category bar">Jazz Club · Local Favourite</div>
           <div class="rec-name">The Spotted Cat</div>
-          <div class="rec-desc">The undisputed local favourite for live New Orleans music on Frenchmen Street. Traditional jazz, blues, klezmer, and funk. No cover, cash bar. Arrives early to get a spot â it gets very full on weekends.</div>
+          <div class="rec-desc">The undisputed local favourite for live New Orleans music on Frenchmen Street. Traditional jazz, blues, klezmer, and funk. No cover, cash bar. Arrives early to get a spot — it gets very full on weekends.</div>
           <div class="rec-tags"><span class="rec-tag">Frenchmen St</span><span class="rec-tag">No cover</span><span class="rec-tag">Local favourite</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category bar">Jazz Club Â· Classic</div>
+          <div class="rec-category bar">Jazz Club · Classic</div>
           <div class="rec-name">Snug Harbor</div>
-          <div class="rec-desc">A classic jazz lounge with intimate cabaret-style seating. Members of New Orleans music royalty â Charmaine Neville, Delfayo Marsalis, Herlin Riley â are regulars. Ticketed shows, proper jazz.</div>
+          <div class="rec-desc">A classic jazz lounge with intimate cabaret-style seating. Members of New Orleans music royalty — Charmaine Neville, Delfayo Marsalis, Herlin Riley — are regulars. Ticketed shows, proper jazz.</div>
           <div class="rec-tags"><span class="rec-tag">Frenchmen St</span><span class="rec-tag">Ticketed shows</span><span class="rec-tag">Music royalty</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category bar">Live Music Â· Funk & Brass</div>
+          <div class="rec-category bar">Live Music · Funk & Brass</div>
           <div class="rec-name">Blue Nile</div>
-          <div class="rec-desc">The original music club that gave birth to the culture on Frenchmen Street. Funk, blues, soul, and brass â local and national acts. One of the great live music rooms in America.</div>
+          <div class="rec-desc">The original music club that gave birth to the culture on Frenchmen Street. Funk, blues, soul, and brass — local and national acts. One of the great live music rooms in America.</div>
           <div class="rec-tags"><span class="rec-tag">Frenchmen St</span><span class="rec-tag">Brass bands</span><span class="rec-tag">Originator</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category bar">Live Music Â· Multi-stage</div>
+          <div class="rec-category bar">Live Music · Multi-stage</div>
           <div class="rec-name">The Maison</div>
           <div class="rec-desc">Three stages mean three chances to find music you love. When other Frenchmen clubs are full on a Saturday night, The Maison always has room. Great for a wide-ranging taste of the city's live music.</div>
           <div class="rec-tags"><span class="rec-tag">Frenchmen St</span><span class="rec-tag">3 stages</span><span class="rec-tag">Always room</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category culture">Icon Â· French Quarter</div>
+          <div class="rec-category culture">Icon · French Quarter</div>
           <div class="rec-name">Preservation Hall</div>
-          <div class="rec-desc">The most famous jazz venue in the world. An intimate, authentic space unchanged since the 1960s. Multiple sets per night â book online or queue. The Preservation Hall Jazz Band is a New Orleans institution.</div>
+          <div class="rec-desc">The most famous jazz venue in the world. An intimate, authentic space unchanged since the 1960s. Multiple sets per night — book online or queue. The Preservation Hall Jazz Band is a New Orleans institution.</div>
           <div class="rec-tags"><span class="rec-tag">French Quarter</span><span class="rec-tag">Book ahead</span><span class="rec-tag">Icon</span></div>
         </div>
         <div class="rec-card">
@@ -1622,73 +1622,73 @@
           <div class="rec-tags"><span class="rec-tag">Frenchmen St</span><span class="rec-tag">Craft beer</span><span class="rec-tag">Cool vibes</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category bar">Cocktail Bar Â· Quarter</div>
+          <div class="rec-category bar">Cocktail Bar · Quarter</div>
           <div class="rec-name">Bar Tonique</div>
           <div class="rec-desc">Reddit's near-unanimous pick for best cocktail bar in the French Quarter. The daily happy hour is a remarkable deal for the quality. Classic New Orleans drinks done flawlessly, plus a low-key local atmosphere far from the tourist chaos of Bourbon Street.</div>
           <div class="rec-tags"><span class="rec-tag">Happy hour daily</span><span class="rec-tag">French Quarter</span><span class="rec-tag">Local crowd</span></div>
           <div class="rec-why">Reddit: "Best cocktail bar in the Quarter, full stop."</div>
         </div>
         <div class="rec-card">
-          <div class="rec-category bar">Music Venue Â· Uptown Icon</div>
+          <div class="rec-category bar">Music Venue · Uptown Icon</div>
           <div class="rec-name">Tipitina's</div>
-          <div class="rec-desc">The legendary Uptown music venue that has hosted Professor Longhair, The Neville Brothers, Galactic, and every great New Orleans act of the last 45 years. A pilgrimage site. Check their calendar for shows on your dates â local and national acts play all week.</div>
+          <div class="rec-desc">The legendary Uptown music venue that has hosted Professor Longhair, The Neville Brothers, Galactic, and every great New Orleans act of the last 45 years. A pilgrimage site. Check their calendar for shows on your dates — local and national acts play all week.</div>
           <div class="rec-tags"><span class="rec-tag">Uptown</span><span class="rec-tag">45yr legacy</span><span class="rec-tag">Check calendar</span></div>
           <div class="rec-why">Reddit: "The soul of New Orleans music. Non-negotiable if they have a good show."</div>
         </div>
         <div class="rec-card">
-          <div class="rec-category bar">Music Venue Â· Late Night</div>
+          <div class="rec-category bar">Music Venue · Late Night</div>
           <div class="rec-name">Maple Leaf Bar</div>
-          <div class="rec-desc">Uptown neighbourhood bar open until 6AM â one of the great late-night New Orleans experiences. The Rebirth Brass Band has a legendary Tuesday residency but shows happen throughout the week. A beloved local institution, not a tourist attraction.</div>
+          <div class="rec-desc">Uptown neighbourhood bar open until 6AM — one of the great late-night New Orleans experiences. The Rebirth Brass Band has a legendary Tuesday residency but shows happen throughout the week. A beloved local institution, not a tourist attraction.</div>
           <div class="rec-tags"><span class="rec-tag">Uptown</span><span class="rec-tag">Open until 6AM</span><span class="rec-tag">Brass bands</span></div>
-          <div class="rec-why">Reddit: "Stay until 4AM â you'll understand New Orleans by then."</div>
+          <div class="rec-why">Reddit: "Stay until 4AM — you'll understand New Orleans by then."</div>
         </div>
       </div>
 
       <div class="subsection-title">Culture & Things to Do</div>
       <div class="rec-grid">
         <div class="rec-card">
-          <div class="rec-category culture">Museum Â· Essential</div>
+          <div class="rec-category culture">Museum · Essential</div>
           <div class="rec-name">National WWII Museum</div>
-          <div class="rec-desc">The best museum in the US, regularly voted #1 by TripAdvisor. Plan a minimum of 3 hours â the immersive Road to Berlin and Road to Tokyo exhibits are extraordinary. Book tickets in advance.</div>
-          <div class="rec-tags"><span class="rec-tag">#1 US Museum</span><span class="rec-tag">3â4 hrs</span><span class="rec-tag">Pre-book</span></div>
+          <div class="rec-desc">The best museum in the US, regularly voted #1 by TripAdvisor. Plan a minimum of 3 hours — the immersive Road to Berlin and Road to Tokyo exhibits are extraordinary. Book tickets in advance.</div>
+          <div class="rec-tags"><span class="rec-tag">#1 US Museum</span><span class="rec-tag">3–4 hrs</span><span class="rec-tag">Pre-book</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category activity">Neighbourhood Â· Walk</div>
+          <div class="rec-category activity">Neighbourhood · Walk</div>
           <div class="rec-name">Garden District Walking Tour</div>
-          <div class="rec-desc">The most beautiful residential neighbourhood in America â oak-lined streets, antebellum mansions, and a completely different energy to the French Quarter. Cemetery of the Confederacy, Lafayette Cemetery #1 is unmissable.</div>
+          <div class="rec-desc">The most beautiful residential neighbourhood in America — oak-lined streets, antebellum mansions, and a completely different energy to the French Quarter. Cemetery of the Confederacy, Lafayette Cemetery #1 is unmissable.</div>
           <div class="rec-tags"><span class="rec-tag">Architecture</span><span class="rec-tag">History</span><span class="rec-tag">Free</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category activity">River Â· Experience</div>
+          <div class="rec-category activity">River · Experience</div>
           <div class="rec-name">Steamboat Natchez Jazz Cruise</div>
           <div class="rec-desc">A genuine 1920s-style paddle steamer on the Mississippi. Two-hour evening jazz cruises with cocktails. The combination of the river, the skyline, and the live music is uniquely New Orleans.</div>
           <div class="rec-tags"><span class="rec-tag">Mississippi River</span><span class="rec-tag">Live jazz</span><span class="rec-tag">Evening cruise</span></div>
         </div>
         <div class="rec-card">
-          <div class="rec-category activity">Market Â· Morning</div>
-          <div class="rec-name">French Market & CafÃ© Du Monde</div>
-          <div class="rec-desc">CafÃ© Du Monde's beignets and cafÃ© au lait are one of the great obligatory experiences of New Orleans. Open 24 hours â go late night after the jazz clubs for the full decadent effect.</div>
+          <div class="rec-category activity">Market · Morning</div>
+          <div class="rec-name">French Market & Café Du Monde</div>
+          <div class="rec-desc">Café Du Monde's beignets and café au lait are one of the great obligatory experiences of New Orleans. Open 24 hours — go late night after the jazz clubs for the full decadent effect.</div>
           <div class="rec-tags"><span class="rec-tag">Beignets</span><span class="rec-tag">24 hours</span><span class="rec-tag">Riverside</span></div>
         </div>
       </div>
 
       <div class="alert info" style="margin-top: 24px;">
-        <div class="alert-icon">ð¡ï¸</div>
-        <div><strong>Late May NOLA tips:</strong> Expect temperatures of 85â90Â°F (29â32Â°C) with high humidity. It's hot. Lightweight clothing is essential. Afternoon thunderstorms are common but pass quickly. The music and food more than compensate â and the evenings are perfect outdoors.</div>
+        <div class="alert-icon">🌡️</div>
+        <div><strong>Late May NOLA tips:</strong> Expect temperatures of 85–90°F (29–32°C) with high humidity. It's hot. Lightweight clothing is essential. Afternoon thunderstorms are common but pass quickly. The music and food more than compensate — and the evenings are perfect outdoors.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ââ FOOTER ââââââââââââââââââââââââââââââââââââââââââââââ -->
+<!-- ══ FOOTER ══════════════════════════════════════════════ -->
 <footer>
-  <strong>Dylan & Lauren's American Road Trip Â· MayâJune 2026</strong><br>
-  Grand Canyon Â· Las Vegas Â· New Orleans Â· 9 nights<br>
-  <span style="margin-top: 8px; display: block;">Recommendations sourced from Reddit Â· Bookings pulled from Gmail & Notion Â· Built with âï¸</span>
+  <strong>Dylan & Lauren's American Road Trip · May–June 2026</strong><br>
+  Grand Canyon · Las Vegas · New Orleans · 9 nights<br>
+  <span style="margin-top: 8px; display: block;">Recommendations sourced from Reddit · Bookings pulled from Gmail & Notion · Built with ☀️</span>
 </footer>
 
 <script>
-  // ââ TAB SWITCHER âââââââââââââââââââââââââââââââââââââââââ
+  // ── TAB SWITCHER ─────────────────────────────────────────
   function switchTab(dest, tab) {
     // Hide all tab contents for this destination
     document.querySelectorAll(`[id^="${dest}-"]`).forEach(el => {
@@ -1704,7 +1704,7 @@
     event.target.classList.add('active');
   }
 
-  // ââ NAV HIGHLIGHT âââââââââââââââââââââââââââââââââââââââ
+  // ── NAV HIGHLIGHT ───────────────────────────────────────
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-link');
 
